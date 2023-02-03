@@ -48,5 +48,8 @@ jt -l
 ################################################################
 # activate theme
 ################################################################
-# jt jt -t <theme-name> [-T | --toolbar] [-N | --nbname]
-jt -t chesterish -T
+# jt --help for options
+# jt jt -t <theme-name> [-T | --toolbar] [-N | --nbname] [-ofs n]
+
+# dark theme/show toolbar/show nb name/output font size=12
+jt -t chesterish -T -N -ofs 12
