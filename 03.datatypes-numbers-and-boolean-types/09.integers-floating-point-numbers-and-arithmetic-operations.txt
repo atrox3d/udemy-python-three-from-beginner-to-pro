@@ -24,4 +24,39 @@
         5 ** -1 = 0.2
 
 
+    - RESULTS OF INTEGER OPERATIONS
+        +, -, //, *     return integers
+        /               returns floats
+
+
+- FLOATS
+    numbers with fractional portion
+    1.0
+    -23.12
+    6.023e23
+
+    flotas map to IEEE 754 specification
+    https://www.h-schmidt.net/FloatConverter/IEEE754.html
+    https://it.wikipedia.org/wiki/IEEE_754
+    https://en.wikipedia.org/wiki/IEEE_754
+
+    0  01111100   01000000000000000000000 = 0.15625
+    31 30     23  22                    0 (bit index)
+    |  |          |
+    |  |          +- fraction (mantissa): 23 bits
+    |  +------------ exponent           :  8 bits
+    +--------------- sign               :  1 bit
+
+
+
+    float values are always an approximation:
+
+    0.1 + 0.2 = 0.30000000000000004     # instead of 0.3
+
+    operation between integers and floats will always give floats:
+
+    10 + 3.0 = 13.0
+    
+
+
 
