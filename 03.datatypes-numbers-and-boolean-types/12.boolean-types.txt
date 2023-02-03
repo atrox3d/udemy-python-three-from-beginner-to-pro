@@ -1,0 +1,19 @@
+BOOLEAN TYPES
+    boolean types can be either True or False
+
+    TRUTHY AND FALSY
+        non-boolean expression can be wvaluated as boolean or by the bool() function
+
+        Rules for bool()
+
+        1. any non-zero number is True
+        2. any non-empty string is True
+        3. any non-empty data structure is True
+        4. keywords False and None are False
+
+    NONE
+        None is a singletone value of class NoneType
+        There is only one None
+        it can be tested against to check missing values, default parameters, etc
+    
+    
