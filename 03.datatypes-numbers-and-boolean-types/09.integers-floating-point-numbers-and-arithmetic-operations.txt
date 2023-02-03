@@ -1,0 +1,27 @@
+- INTEGERS
+    whole numbers with no fractional portion
+
+    - FLOOR DIVISION: x // y
+        returns the smallest integer near the result
+
+        4 / 5 = 0.8
+        4 // 5 = 0          # 0 < 1
+
+        -15 / 4 = -3.75
+        -15 // 4 = -4       # -4 < -3
+    
+    - MODULO or REMAINDER OPERATOR: x % y
+        return the remainder of the division
+
+        15 % 4 = 3          # equals 3 with remainder of 3
+        100 % 30 = 10       # equals 3 with remainder of 10
+    
+    - EXPONENT OPERATOR x ** y
+        returns x to the power of y (x^y)
+
+        2 ** 2 = 4
+        10 ** 3 = 1000
+        5 ** -1 = 0.2
+
+
+
