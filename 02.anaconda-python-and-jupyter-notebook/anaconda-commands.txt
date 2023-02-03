@@ -1,18 +1,28 @@
+################################################################
 # activate conda (base) in git bash for windows
+################################################################
 cd %userprofile%/Anaconda3/Scripts
 conda init bash
 # close and reopen terminal
 
+################################################################
 # prevent anaconda from activating (base) when opening git bash
+################################################################
 conda config --set auto_activate_base false
 
+################################################################
 # activate default anaconda env (base)
+################################################################
 conda activate
 
+################################################################
 # deactivate default anaconda env (base)
+################################################################
 conda deactivate
 
+################################################################
 # create environment for different python version
+################################################################
 conda create --name py310 python==3.10.8
 #
 # To activate this environment, use       
@@ -23,9 +33,13 @@ conda create --name py310 python==3.10.8
 #
 #     $ conda deactivate
 
+################################################################
 # list conda environments
+################################################################
 conda env list
 
+################################################################
 # list conda env packages
+################################################################
 conda list
 
